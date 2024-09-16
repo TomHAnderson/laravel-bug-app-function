@@ -1,0 +1,22 @@
+{
+    "name": "tom.h.anderson/bug",
+    "type": "example",
+    "require": {
+        "laravel/framework": "^11.23"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "TomHAnderson\\Bug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom H Anderson",
+            "email": "tom.h.anderson@gmail.com"
+        }
+    ]
+}
