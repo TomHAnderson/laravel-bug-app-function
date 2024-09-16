@@ -8,6 +8,6 @@ class OnlyAContainerTest extends TestCase
 {
     public function testAppFunctionCanResolvePaths()
     {
-        app()->getStoragePath();
+        storage_path();
     }
 }
